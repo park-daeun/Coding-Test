@@ -7,12 +7,12 @@
 <br>
 
 - key로 정렬하기
-    - def setting(data): ; return data[1]; result = sorted(array, key=setting)
+    - def setting(data): return data[1]<br>result = sorted(array, key=setting)
     - array = sorted(array, key = lambda data: data[1])
 <br>
 
 - 내림차순 정렬
-    - array.sort(); array.reverse()
+    - array.sort()<br>array.reverse()
     - array = sorted(array, reverse=True)
 <br>
 
