@@ -3,7 +3,7 @@
 #### [백준](https://www.acmicpc.net/) | [프로그래머스](https://programmers.co.kr/learn/challenges) | [이것이 코딩테스트다](https://github.com/ndb796/python-for-coding-test)
 -------------------------------------
 
-주차|이코테|문제|문제 출처
+주차|이것이 코딩테스트다|문제|문제 출처
 ---|---|---|---
 1주차(21.05.24~21.05.30)|그리디(0527)|[블랙잭(0526)](https://www.acmicpc.net/problem/2798)<br>[분해합(0528)](https://www.acmicpc.net/problem/2231)<br>[덩치(0529)](https://www.acmicpc.net/problem/7568)|[BOJ 브루트포스](https://www.acmicpc.net/step/22)
 2주차(21.05.31~21.06.06)|구현(0601)<br>DFS/BFS(0603)|[체스판 다시 칠하기(0531)](https://www.acmicpc.net/problem/1018)<br>[동전 0(0602)](https://www.acmicpc.net/problem/11047)<br>[회의실 배정(0604)](https://www.acmicpc.net/problem/1931)<br>[ATM(0605)](https://www.acmicpc.net/problem/11399)|[BOJ 브루트포스](https://www.acmicpc.net/step/22)<br>[BOJ 그리디 알고리즘](https://www.acmicpc.net/step/33)
