@@ -1,35 +1,12 @@
 ## 📚 3주차 배운 점
 
-### 🔎 정렬
-- <b>정렬 라이브러리</b>
-    - result = sorted(array) #정렬된 리스트를 따로 만듦
-    - array.sort() #리스트의 내부 원소가 바로 정렬됨
+### 🔎 다이나믹 프로그래밍
+- <b>탑다운(Top-Down) 방식</b>
+    - 재귀함수를 이용하여 다이나믹 프로그래밍 소스코드를 작성하는 방법, 큰 문제를 해결하기 위해 작은 문제를 호출
+    - <b>메모이제이션(Memoization)</b> : 다이나믹 프로그래밍을 구현하는 방법 중 한 종류로, 한 번 구한 결과를 메모리 공간에 메모해두고 같은 식을 다시 호출하면 메모리 결과를 그대로 가져오는 기법
 <br>
 
-- <b>key로 정렬하기</b>
-    - def setting(data): return data[1]<br>result = sorted(array, key=setting)
-    - array = sorted(array, key = lambda data: data[1])
+- <b>보텀업(Bottom-Up) 방식</b>
+    - 반복문을 이용하여 소스코드를 작성하는 방법, 작은 문제부터 차근차근 답을 도출
+    - (탑다운 방식보다 보텀업 방식이 권장됨)
 <br>
-
-- <b>내림차순 정렬</b>
-    - array.sort()<br>array.reverse()
-    - array = sorted(array, reverse=True)
-<br>
-
-- <b>리스트 스와프</b>
-    - array[0], array[1] = array[1], array[0]
-<br>
-
-### 🔎 이진 탐색
-- <b>순차 탐색</b>
-    - 리스트 안에 있는 특정한 데이터를 찾기 위해 앞에서부터 데이터를 하나씩 차례대로 확인하는 방법
-<br>
-
-- <b>이진 탐색</b>
-    - 배열 내부의 데이터가 정렬되어 있어야만 사용할 수 있는 알고리즘
-    - 찾으려는 데이터와 중간점 위치에 있는 데이터를 반복적으로 비교해서 원하는 데이터를 찾는 방법
-<br>
-
-### 💡 빠르게 입력받기
-- import sys<br>input_data = sys.stdin.readline().rstrip()
-- ※ rstrip: 줄바꿈문자 제거하기위해 꼭 입력해야함!
