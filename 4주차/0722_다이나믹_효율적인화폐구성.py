@@ -3,7 +3,7 @@ import sys
 n, m = map(int, sys.stdin.readline().split())
 money = [int(sys.stdin.readline()) for _ in range(n)]
 money = list(set(money))
-money.sort
+money.sort()
 
 d = [0] * (m+1)
 
@@ -14,12 +14,10 @@ for c in money:
 
 for i in range(1, m+1):
     for j in money:
-        print(i, j, d)
         if i > j and (d[i] == 0 or d[i] > d[i-j] + 1):
             if d[i-j] == 0:
                 continue
             d[i] = d[i-j] + 1
-print(d)
 
 if d[m] == 0:
     print(-1)
